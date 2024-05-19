@@ -1,0 +1,152 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFBBD;
+    color: #7FB069;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    position: sticky;
+}
+
+main img {
+    margin: 5%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+main div p, main section p {
+    font-size: 1.5em;
+    margin-left: 10%;
+    width: 50%;
+}
+
+main section img {
+    height: 10% ;
+    width: 30%;
+    margin: 30px;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    background-color: #7FB069;
+    color: #FFFBBD;
+    height: auto;
+    position: sticky;
+    bottom: 0;
+    width: auto;
+}
+
+main ul li div div a {
+    font-size: 1.5em;
+}
+
+#logo {
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+#small-text {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#unfinished {
+    font-size: 10em;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.index-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+}
+
+.index-footer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    background-color: #7FB069;
+    color: #FFFBBD;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    width: 92.2em;
+}
+
+.img-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.img-list li {
+    border: 5px solid transparent;
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 23em;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+
+.img-list img {
+    max-width: 100%;
+    vertical-align: middle;
+    max-height: 50%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-text {
+    font-weight: bold;
+}
+
+a:link {color: #7FB069;}  
+a:visited {color: #7FB069;}  
+a:hover {
+    color: black;
+    transition: all 500ms ease;
+}
