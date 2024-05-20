@@ -3,6 +3,11 @@
     text-decoration: none;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -52,7 +57,7 @@ footer {
     height: auto;
     position: sticky;
     bottom: 0;
-    width: auto;
+    width: 100%;
 }
 
 main ul li div div a {
@@ -114,7 +119,7 @@ main ul li div div a {
 .img-list li {
     border: 5px solid transparent;
     box-sizing: border-box;
-    width: 33.33%;
+    width: 33%;
     height: 23em;
     float: left;
     position: relative;
